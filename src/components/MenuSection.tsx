@@ -54,7 +54,7 @@ const MenuSection = () => (
                 <li key={item.name} className="flex justify-between items-baseline gap-2">
                   <span className="font-body">{item.name}</span>
                   <span className="flex-1 border-b border-dotted border-chalkboard-foreground/20 mx-2 mb-1" />
-                  <span className="font-heading font-bold text-sm opacity-60">• • •</span>
+                  <span className="font-heading font-bold text-sm opacity-60">{item.price}</span>
                 </li>
               ))}
             </ul>

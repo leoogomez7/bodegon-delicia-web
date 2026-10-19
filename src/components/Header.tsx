@@ -18,7 +18,7 @@ const Header = () => {
       <div className="container flex items-center justify-between py-3">
         <a href="#inicio" className="flex flex-col leading-none">
           <span className="font-heading text-xl md:text-2xl font-bold text-primary tracking-tight">
-            Bodegón
+            Bodegón Delicia
           </span>
           <span className="font-script text-sm text-muted-foreground">Buenos Aires</span>
         </a>

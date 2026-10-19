@@ -6,7 +6,7 @@ const Footer = () => (
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
           <span className="font-heading text-xl font-bold text-background block mb-1">
-            Bodegón
+            Bodegón Delicia
           </span>
           <span className="font-script text-sm">Buenos Aires</span>
         </div>
@@ -36,7 +36,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-background/10 mt-8 pt-6 text-center text-xs">
-        © {new Date().getFullYear()} Bodegón. Todos los derechos reservados.
+        © {new Date().getFullYear()} Bodegón Delicia. Todos los derechos reservados.
       </div>
     </div>
   </footer>
